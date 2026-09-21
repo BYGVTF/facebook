@@ -1,0 +1,323 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Registro de Tarea</title>
+
+
+  <!-- ==================================================
+       VISTA PREVIA PARA WHATSAPP / FACEBOOK / REDES
+       ================================================== -->
+
+  <meta
+    property="og:title"
+    content="Registro de Tarea"
+  >
+
+  <meta
+    property="og:description"
+    content="Ingresa al sistema para registrar y enviar tu tarea."
+  >
+
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <!-- IMPORTANTE:
+       Cuando tengas tu URL de GitHub Pages puedes
+       reemplazar esta URL por la dirección de tu página.
+  -->
+
+  <meta
+    property="og:url"
+    content=""
+  >
+
+  <!--
+       La imagen debe llamarse EXACTAMENTE:
+       logo.png
+
+       Debe estar en el mismo repositorio que index.html
+  -->
+
+  <meta
+    property="og:image"
+    content="logo.png"
+  >
+
+  <meta
+    property="og:image:type"
+    content="image/png"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="Registro de Tarea"
+  >
+
+
+  <!-- ==================================================
+       COMPATIBILIDAD CON OTRAS REDES
+       ================================================== -->
+
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="Registro de Tarea"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Ingresa al sistema para registrar y enviar tu tarea."
+  >
+
+  <meta
+    name="twitter:image"
+    content="logo.png"
+  >
+
+
+  <!-- ==================================================
+       DISEÑO
+       ================================================== -->
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    html,
+    body {
+
+      margin: 0;
+
+      padding: 0;
+
+      width: 100%;
+
+      min-height: 100%;
+
+    }
+
+
+    body {
+
+      min-height: 100vh;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      padding: 20px;
+
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+      background:
+        linear-gradient(
+          135deg,
+          #eef2f7,
+          #dfe7f1
+        );
+
+    }
+
+
+    /* ==========================================
+       TARJETA PRINCIPAL
+       ========================================== */
+
+    .contenedor {
+
+      width: 100%;
+
+      max-width: 470px;
+
+      padding: 40px 30px;
+
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.97
+        );
+
+      border-radius: 22px;
+
+      box-shadow:
+        0 15px 45px
+        rgba(
+          0,
+          0,
+          0,
+          0.18
+        );
+
+      text-align: center;
+
+    }
+
+
+    /* ==========================================
+       LOGO
+       ========================================== */
+
+    .logo {
+
+      display: block;
+
+      width: 220px;
+
+      max-width: 85%;
+
+      height: auto;
+
+      margin:
+        0 auto 25px auto;
+
+    }
+
+
+    /* ==========================================
+       TÍTULO
+       ========================================== */
+
+    h1 {
+
+      margin:
+        0 0 12px 0;
+
+      color: #202124;
+
+      font-size: 29px;
+
+    }
+
+
+    .descripcion {
+
+      margin:
+        0 auto 25px auto;
+
+      color: #5f6368;
+
+      font-size: 16px;
+
+      line-height: 1.5;
+
+    }
+
+
+    /* ==========================================
+       SPINNER
+       ========================================== */
+
+    .spinner {
+
+      width: 60px;
+
+      height: 60px;
+
+      margin:
+        25px auto 18px auto;
+
+      border:
+        6px solid
+        #e0e0e0;
+
+      border-top:
+        6px solid
+        #4285f4;
+
+      border-radius: 50%;
+
+      animation:
+        girar
+        0.9s
+        linear
+        infinite;
+
+    }
+
+
+    @keyframes girar {
+
+      0% {
+
+        transform:
+          rotate(0deg);
+
+      }
+
+
+      100% {
+
+        transform:
+          rotate(360deg);
+
+      }
+
+    }
+
+
+    /* ==========================================
+       LOADING
+       ========================================== */
+
+    .loading {
+
+      color: #4285f4;
+
+      font-size: 22px;
+
+      font-weight: bold;
+
+      letter-spacing: 3px;
+
+    }
+
+
+    .subtexto {
+
+      margin-top: 10px;
+
+      color: #777;
+
+      font-size: 14px;
+
+    }
+
+
+    /* ==========================================
+       BOTÓN MANUAL
+       ========================================== */
+
+    .boton {
+
+      display: inline-block;
+
+      width: 100%;
+
+      margin-t
+```
